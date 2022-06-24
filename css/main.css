@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+.container-fluid {
+  max-width: 100%;
+  width: 100%;
+  padding: 0px 0px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0px 20px;
+  margin: 0px auto;
+}
+
+.btn {
+  display: none;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 48px;
+}
+
+h4 {
+  font-size: 34px;
+}
+
+.navbar {
+  -webkit-box-shadow: 0px 4px 18px 0px #0000001F;
+          box-shadow: 0px 4px 18px 0px #0000001F;
+  padding: 10px 0px;
+}
+
+.navbar .nav-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.navbar .nav-content .nav-brand a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar .nav-content .nav-brand a img:hover {
+  opacity: .7;
+}
+
+.navbar .nav-content .nav-reg a {
+  padding: 13px 35px;
+  background-color: #4C7A94;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.navbar .nav-content .nav-reg a img {
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.search form {
+  margin-top: 50px;
+  min-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.search form input {
+  max-width: 100%;
+  width: 100%;
+  padding: 15px 15px;
+  border-radius: 20px;
+  outline: none;
+  border: 0px none;
+  -webkit-box-shadow: 0px 4px 18px 0px #0000001F;
+          box-shadow: 0px 4px 18px 0px #0000001F;
+  color: #4C7A94;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.search form button[type="submit"] {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: url("../img/search.svg") no-repeat 50% 50%;
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  padding: 20px 20px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.search form button[type="submit"]:hover {
+  background-color: #4C7A94;
+}
+
+.table {
+  margin-top: 24px;
+}
+
+.table table, .table th, .table td {
+  table-layout: fixed;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table table th, .table table td, .table th th, .table th td, .table td th, .table td td {
+  padding: 15px;
+  border: 1px solid #EEEEEE;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.table table .table-title, .table th .table-title, .table td .table-title {
+  font-weight: 600;
+}
+
+.table table tr:nth-child(3), .table th tr:nth-child(3), .table td tr:nth-child(3) {
+  background-color: #FBFBFB;
+}
+
+.table table .long-table, .table th .long-table, .table td .long-table {
+  max-width: 200px;
+}
+
+.table table button, .table th button, .table td button {
+  padding: 14px 26px;
+  -webkit-box-shadow: 0px 4px 18px 0px #0000001F;
+          box-shadow: 0px 4px 18px 0px #0000001F;
+  background-color: transparent;
+  border: 0px none;
+  outline: none;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+.table table button:hover, .table th button:hover, .table td button:hover {
+  -webkit-box-shadow: 0px 4px 46px 0px rgba(34, 60, 80, 0.2);
+          box-shadow: 0px 4px 46px 0px rgba(34, 60, 80, 0.2);
+  font-weight: 500;
+}
+
+.table table .table-center, .table th .table-center, .table td .table-center {
+  text-align: center;
+}
+
+.table table .table-prof, .table th .table-prof, .table td .table-prof {
+  color: #53A85B;
+  font-weight: 600;
+}
+
+.table table .table-ret, .table th .table-ret, .table td .table-ret {
+  font-weight: 600;
+}
+/*# sourceMappingURL=main.css.map */
